@@ -7,7 +7,7 @@ A tool to make web development easier with devcontainer
 
 ```json
 "features": {
-    "ghcr.io/Derroylo/devcontainers/webdev-tool:0": {}
+    "ghcr.io/Derroylo/devcontainers/webdev-tool:1": {}
 }
 ```
 
