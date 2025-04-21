@@ -1,0 +1,16 @@
+{
+    "name": "WebDev-Tool",
+    "id": "webdev-tool",
+    "version": "0.1.0",
+    "description": "A tool to make web development easier with devcontainer",
+    "options": {
+      "version": {
+        "type": "string",
+        "default": "latest",
+        "description": "Version of the WebDev-Tool, defaults to latest"
+      }
+    },
+    "dependsOn": {
+      "ghcr.io/devcontainers/features/dotnet:2": {}
+    }
+  }
