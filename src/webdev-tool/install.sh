@@ -34,7 +34,7 @@ chmod +x $HOME/webdev/webdev.sh
 # Set owner for the webdev folder
 chown -R $_REMOTE_USER:$_REMOTE_USER $TARGET_DIR
 
-# Add alias for bash
-echo "alias webdev='$HOME/webdev/webdev.sh'" > $HOME/.bashrc.d/webdev-tool
+# Add symlink for the tool
+ln -s $HOME/webdev/webdev.sh /usr/local/bin/webdev
 
 echo "All done"
